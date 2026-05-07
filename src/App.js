@@ -23,7 +23,7 @@ function App() {
       <nav className="fixed w-full z-50 flex justify-between items-center px-10 py-6 bg-slate-950/70 backdrop-blur-md">
 
         <h1 className="text-3xl font-bold text-cyan-400">
-          Kartik.
+          Kartik Bhagat
         </h1>
 
         <div className="hidden md:flex gap-8">
