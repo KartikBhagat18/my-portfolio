@@ -109,7 +109,7 @@ function App() {
         {/* ICONS */}
         <div className="flex gap-8 text-4xl mt-10">
 
-          <a href="https://github.com/">
+          <a href="https://github.com/KartikBhagat18" target="_blank">
             <FaGithub className="hover:text-cyan-400 hover:scale-125 duration-300" />
           </a>
 
@@ -132,42 +132,55 @@ function App() {
         </h1>
 
         <p className="text-xl leading-10 text-gray-300">
-          I'm Kartik, an AI & Full Stack Developer passionate about
-          creating intelligent systems using CNN, TensorFlow and modern technologies.
+          I'm Kartik Bhagat, a passionate AI & Full Stack Developer from India.
+I specialize in Machine Learning, CNN models, TensorFlow and modern web technologies.
+I love building intelligent applications and futuristic web experiences.
+          
         </p>
 
       </section>
 
-      {/* SKILLS */}
-      <section
-        id="skills"
-        className="min-h-screen px-10 md:px-32 py-20"
-      >
+    
+    {/* SKILLS */}
+<section
+  id="skills"
+  className="min-h-screen px-10 md:px-32 py-20"
+>
 
-        <h1 className="text-5xl font-bold text-cyan-400 mb-20">
-          Skills
-        </h1>
+  <h1 className="text-5xl font-bold text-cyan-400 mb-20">
+    Skills
+  </h1>
 
-        <div className="grid md:grid-cols-3 gap-10">
+  <div className="grid md:grid-cols-3 gap-10">
 
-          <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
-            <FaPython className="text-7xl text-yellow-400 mb-6" />
-            <h2 className="text-3xl font-bold">Python</h2>
-          </div>
+    <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
+      <FaPython className="text-7xl text-yellow-400 mb-6" />
+      <h2 className="text-3xl font-bold">Python</h2>
+    </div>
 
-          <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
-            <FaReact className="text-7xl text-cyan-400 mb-6" />
-            <h2 className="text-3xl font-bold">React</h2>
-          </div>
+    <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
+      <FaReact className="text-7xl text-cyan-400 mb-6" />
+      <h2 className="text-3xl font-bold">React</h2>
+    </div>
 
-          <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
-            <h2 className="text-6xl mb-6">🤖</h2>
-            <h2 className="text-3xl font-bold">TensorFlow</h2>
-          </div>
+    <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
+      <h2 className="text-6xl mb-6">🤖</h2>
+      <h2 className="text-3xl font-bold">TensorFlow</h2>
+    </div>
 
-        </div>
+    <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
+      <h2 className="text-6xl mb-6">🌐</h2>
+      <h2 className="text-3xl font-bold">MongoDB</h2>
+    </div>
 
-      </section>
+    <div className="bg-slate-900 p-10 rounded-3xl border border-slate-800 hover:-translate-y-4 duration-500">
+      <h2 className="text-6xl mb-6">⚡</h2>
+      <h2 className="text-3xl font-bold">JavaScript</h2>
+    </div>
+
+  </div>
+
+</section>
 
       {/* PROJECTS */}
       <section
@@ -240,7 +253,7 @@ function App() {
         </h1>
 
         <p className="text-xl text-gray-400 mb-10">
-          kartik@example.com
+          bhagatkartik700@gmail.com
         </p>
 
         <button className="bg-cyan-500 px-10 py-5 rounded-2xl hover:scale-110 duration-300">
