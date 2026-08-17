@@ -9,7 +9,7 @@ import {
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.jpeg";
 import resume from "./assets/resume.pdf";
 
 function App() {
